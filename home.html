@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <style>
+        body
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+            margin: 0; 
+            background-color: #f0f0f0;
+
+        }
+        .box
+        {   
+            align-items: center;
+            
+            height: 90vh;
+            width: 90vb;
+            border-color: gold;
+            border-radius: 10px;
+            border-width: 10px;
+            border-style: double;
+            padding:10px 10px 10px 10px;
+           
+
+
+        }
+        .nav
+        {   
+            
+            font-weight: bolder;
+            font-family: Arial;
+            color: rgb(7, 7, 7);
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            height: 30px;
+            padding-top: 150px;
+        }
+        
+        img
+        {
+            float: right;
+            margin-top: 60px;
+            margin-right: 0px;
+            border-radius: 50%;
+            border: 2px solid;
+            border-color: black;
+        }
+        img:hover
+        {
+            border-color: #39ff14;  
+        }
+        a
+        {
+            text-decoration: none;
+
+        }
+        
+        p
+        {
+            color: rgb(133, 98, 239);
+        }
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(70%);
+            animation: slowMotion 5s ease-in infinite;
+        }
+        .video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        .hover
+        {
+           
+            border: 2px solid transparent;
+        }
+        .hover:hover
+        {
+            text-decoration: underline gold 5px ;
+        }
+        i
+        {
+            color:#FCEAAC;
+        }
+        i:hover
+        {
+            color:#65e6b4
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="video-container">
+        <video autoplay loop muted>
+            <source src="https://videos.pexels.com/video-files/24826317/11898333_360_640_30fps.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+    <div class="box">
+        
+    <div class="nav ">
+        <a class="hover"  href="/home.html"  style="color: #39ff14;">Home</a>
+        <a class="hover" href="/about.html"  style="color: #39ff14;">About</a>
+        <a class="hover" href="/project.html"  style="color: #39ff14;">Projects</a>
+        <a class="hover" href="/skills.html"  style="color: #39ff14;">Skills</a>
+        <a class="hover" href="/contact.html"  style="color: #39ff14;">Contact</a>
+    </div>
+    <hr>
+    <div class="container">
+    
+    <img src="IMG_20250404_225143.png" width="250" height="250">
+
+   <h1 style="color: blanchedalmond;">Hello , I'm <u ><i> Anurag Rai </i></u></h1>
+    <h2 style="color: bisque;">I'm a Developer</h2>
+    <p><b>My objective is to secure a challenging and rewarding placement opportunity in the field of computer science. I aim to apply my academic knowledge and technical skills to contribute effectively to an organization , gain practical experience , and learn from professionals in the industry. 
+    </p>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <div class="buttons">
+     
+     <a href="https://www.linkedin.com/in/anurag-rai-profile/"><i class="fa-brands fa-linkedin fa-xl"></i></a>   
+     <a href="https://github.com/AnuragRai13"><i class="fa-brands fa-github fa-2xl"></i></a>   
+     <a href="https://x.com/AnU_Rai_"><i class="fa-brands fa-twitter fa-xl"></i></a>   
+     <a href="https://www.instagram.com/anurag_rai_13/"><i class="fa-brands fa-instagram fa-2xl"></i></a>   
+    </div>
+
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio About</title>
+    <style>
+        body
+        {
+            background-color: salmon;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            
+            
+        }
+       
+        table
+        {
+            height: 70vh;
+            width:80vw;
+            border-radius: 20px;
+            border: 10px double gold ;
+            background-color: white;
+            padding: 20px 20px 20px 20px;
+            
+        }
+        
+        thead
+        {
+            color: brown;
+
+        }
+       
+        h3
+        {
+            height: 30px;
+            background-color: whitesmoke;
+            color: red;
+            border: 5px solid gold;
+        }
+        th
+        {
+            border: 3px solid  ;
+            border-radius: 5px;
+            text-align: center;
+        }
+        td
+        {
+            font-weight: 600;
+            border: 3px dashed brown;
+            text-align: center;
+            
+        }
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(70%);
+            animation: slowMotion 10s linear infinite;
+        }
+        .video-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        button
+        {
+            margin-bottom: 20px;
+            padding: 10px 15px;
+            font-weight: bold;
+            border-radius: 30px;
+            position: fixed;
+            bottom: 2px;
+           
+           
+        }
+        button:hover
+        {
+            background: #45a049;
+        }
+        a
+        {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay loop muted>
+            <source src="https://videos.pexels.com/video-files/24826317/11898333_360_640_30fps.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+    <div>
+    <table>
+        
+        
+        <caption><H3>....EDUCATION....</H3></caption>
+    
+        <tr style="font-family: Georgia, 'Times New Roman', Times, serif;">
+            <th><u>COURSE</u></th>
+            <th><u>INSTITUTION</u></th>
+            <th><u>YEAR</u></th>
+            <th><u>PLACE</u></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="background-color: rgb(238, 161, 114);">
+            <td>MCA</td>
+            <td>ABES Engineering College</td>
+            <td>2024-26</td>
+            <td>Ghaziabad</td>
+        </tr>
+        <tr style="background-color: rgb(124, 98, 229);">
+            <td>BCA</td>
+            <td>School Of Management Sciences</td>
+            <td>2021-24</td>
+            <td>Varanasi</td>
+        </tr>
+        <tr style="background-color: rgb(137, 221, 116);">
+            <td>Intermediate</td>
+            <td>Divine Sainik School</td>
+            <td>2020-21</td>
+            <td>Varanasi</td>
+        </tr>
+        <tr style="background-color: rgb(227, 99, 120);">
+            <td>High-School</td>
+            <td>Divine Sainik School</td>
+            <td>2018-19</td>
+            <td>Varanasi</td>
+        </tr>
+        
+    </tbody>
+</table>
+</div>
+<button><a href="/home.html">BACK</a></button>
+</body>
+</html>
